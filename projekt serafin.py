@@ -268,7 +268,7 @@ def dostep(event=None):
             button_posterunki_zmien.grid(row=2, column=2)
 
             # ---------------------------------------
-            # ramka posterunki formularz
+            # ramka posterunki formularz wyswietlania
             # ---------------------------------------
             label_posterunki_new = Label(ramka_jednostki_dod_ed, text='Dodaj lub edytuj:',
                                          font=('Arial', 12))
@@ -841,3 +841,4 @@ wejscie_entry.grid(row=1, column=0, padx=30)
 wejscie_button.grid(row=2, column=0)
 
 root_wejscie.mainloop()
+# powoduje, że tabela nie wyswietla sie na sekundę
